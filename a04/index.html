@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home - Acme International</title>
+<link rel="stylesheet" href="styles/bootstrap-reboot.min.css">
+<link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="inner-header">
+	  <h1><a href="#">Acme International</a></h1>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div><!-- end inner-header -->
+  </header>
+  <main>
+  	<div class="hero-slider">
+      <div class="hero-slideshow cycle-slideshow" 
+    	   data-cycle-fx="scrollHorz"
+    	   data-cycle-timeout="0"
+           data-cycle-prev="#prev"
+           data-cycle-next="#next"
+           data-cycle-pager="#adv-custom-pager"
+           data-cycle-pager-template="<a href='#'><img src='{{src}}' width='110' height='47'></a>">
+      <img src="images/triss.jpg" alt="lightbulbs">
+      <img src="images/light-bulb-01.jpg" alt="lightbulbs">
+    	<img src="images/lightbulbs-02.jpg" alt="lightbulbs">
+    	<img src="images/lightbulbs-03.jpg" alt="lightbulbs">
+	  </div>
+	  <!-- empty element for pager links -->
+	  <div id="adv-custom-pager" class="hero-slider-th-container"></div>
+	  <div class="hero-slider-controls-container">
+	  	<img id="prev" class="prev" src="images/arrow-left-white.png" alt="arrow left">
+        <img id="next" class="next" src="images/arrow-right-white.png" alt="arrow right">
+      </div>
+    </div><!-- end hero-slider -->
+    <section class="section-01">
+      <h1>Welcome</h1>
+      <div class="row">
+		  <article class="article-01">
+			<img src="images/light-bulb-01.jpg" alt="Light bulb in hands"/>
+			<h2>Sub Title</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>            
+		  </article>
+		  <article class="article-02">
+			<img src="images/light-bulb-02.jpg" alt="floresent light bulb"/>
+			<h2>Sub Title</h2>
+			<p>Suspendisse et tincidunt massa.</p>            
+		  </article>
+		  <article class="article-03">
+			<div class="special">
+			  <p>Special Feature</p>
+			</div>
+			<img src="images/light-bulb-03.jpg" alt="multiple light bulbs in a diagonal row"/>
+			<h2>Sub Title</h2>
+			<p>Nulla malesuada lacinia enim eget ultrices.</p>    
+		  </article>
+      </div><!-- end row -->
+    </section>
+    
+    <section class="section-02">
+    	<article>
+    		<h1>About Our Company</h1>
+    		
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, tempora voluptatum. Repellendus aperiam et adipisci dolor, optio fugiat, perspiciatis exercitationem, dolore voluptas, repudiandae sit. Error veritatis reprehenderit veniam optio cumque iusto, sequi impedit officia facere non quaerat aliquam, delectus itaque repellendus obcaecati eos enim molestiae magni aliquid ratione mollitia aspernatur quod consectetur, aperiam. Molestias voluptates odio suscipit. Mollitia quaerat cum provident ducimus sapiente, numquam expedita necessitatibus amet asperiores neque. Ut suscipit rem sapiente repudiandae quisquam.</p>
+    		
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, tempora voluptatum. Repellendus aperiam et adipisci dolor, optio fugiat, perspiciatis exercitationem, dolore voluptas, repudiandae sit. Error veritatis reprehenderit veniam optio cumque iusto, sequi impedit officia facere non quaerat aliquam, delectus itaque repellendus obcaecati eos enim molestiae magni aliquid ratione mollitia aspernatur quod consectetur, aperiam. Molestias voluptates odio suscipit. Mollitia quaerat cum provident ducimus sapiente, numquam expedita necessitatibus amet asperiores neque. Ut suscipit rem sapiente repudiandae quisquam.</p>
+    		
+    	</article>
+    </section>
+      
+  </main>
+  <footer>
+  	<p>&copy; 2017 Michael Whyte</p>
+  	<p>For Educational Use Only</p>
+	<p><a href="credits.html">Image Credits</a></p>
+	<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Correct CSS!" />
+    </a>
+</p>
+  </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="scripts/jquery.cycle2.min.js"></script>
+</body>
+</html>

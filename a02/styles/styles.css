@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	background-color: rgb(41, 179, 13);
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: auto;
+    margin: auto;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.wrapper {
+	
+	background-color: white;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 960px;
+    margin: auto;
+    border: 5px double black;
+	text-align: left;
+	box-sizing: border-box;
+    
+}
+
+.main_block {
+	background-color: rgb(224, 220, 220);
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+	border: 2px dotted black;
+	box-sizing: border-box;
+}
+.img_block{
+	margin: 5px;
+	width: auto;
+	border: 2px solid rgb(41, 179, 13);
+	box-sizing: border-box;
+}
+
+.bottom_block{
+    background-color: rgb(0, 195, 230);
+    color:black;
+    font-family: 'Times New Roman', Times, serif
+    font-size: 12px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
